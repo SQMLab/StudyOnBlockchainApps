@@ -21,8 +21,9 @@ git lfs install
 2. Clone: `git clone https://github.com/disa-lab/BlockchainEmpiricalEASE2022.git`
 
 # Prerequisites
-1. Install packages from `requirements.txt`
-2. Create a `config` file in the root directory and place your github access token in it
+1. Python 3.8
+2. Install packages from `requirements.txt`
+3. Create a `config` file in the root directory and place your github access token in it
 ```
 {
     "access_token": "access token"
