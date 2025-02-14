@@ -169,3 +169,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/Data/Backup
+config
+/Data/BlockchainEmpiricalEASE2022
+Data/Repositories.bin
