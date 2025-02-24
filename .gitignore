@@ -125,7 +125,7 @@ celerybeat-schedule
 celerybeat.pid
 
 # SageMath parsed files
-*.sage.py
+*.sage.py.ip
 
 # Environments
 .env
@@ -173,3 +173,4 @@ cython_debug/
 config
 /Data/BlockchainEmpiricalEASE2022
 Data/Repositories.bin
+DummyTest.ipynb
