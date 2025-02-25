@@ -10,8 +10,8 @@ import markdown
 
 app = Flask(__name__)
 
-filtered_repositories_path = "./Data/BlockchainAppRepositories-part1.csv"
-repositories_path = "./Data/repository-part1.csv"
+filtered_repositories_path = "./Data/BlockchainAppRepositories-part2.csv"
+repositories_path = "./Data/repository-part2.csv"
 
 ACCESS_TOKEN = json.load(open("./config"))["access_token"]
 auth = Auth.Token(ACCESS_TOKEN)
@@ -44,9 +44,15 @@ def get_repo(owner, repo_name):
     topics = df["topics"].iloc[0]
     description = df["description"].iloc[0]
     languages = df["language"].iloc[0]
+    repo_url = df["repo_url"].iloc[0]
 
     repo = github.get_repo(full_name)
-    readme = repo.get_readme().decoded_content.decode()
+    readme = ''
+    try:
+        readme = repo.get_readme().decoded_content.decode()
+    except:
+        print("Failed to fetch ReadMe")
+    
 
     is_app = False
     
@@ -57,6 +63,7 @@ def get_repo(owner, repo_name):
 
     return jsonify({
         "Name": owner+"/"+repo_name,
+        "RepoUrl": repo_url,
         "Description": description,
         "Topics": topics,
         "Languages": languages,
