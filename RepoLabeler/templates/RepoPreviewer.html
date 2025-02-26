@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repos</title>
+    <script>
+        function loadRepoDetails(repo) {
+            fetch(`/repo/${repo}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("repo-name").textContent = data.Name;
+                    document.getElementById("repo-description").textContent = data.Description || "No description";
+                    document.getElementById("repo-topics").textContent = data.Topics || "No topics";
+                    document.getElementById("repo-languages").textContent = data.Languages || "No languages";
+                    document.getElementById("repo-readme").innerHTML = data.Readme;
+                    let btn = document.getElementById("toggle-btn");
+                    btn.textContent = data.IsApplication ? "Remove" : "Add";
+                    btn.classList.remove("add", "remove");
+                    btn.classList.add("btn");
+                    btn.classList.add(data.IsApplication ? "remove" : "add");
+                    btn.onclick = () => toggleRepo(data.Name);
+                });
+        }
+
+        function toggleRepo(repo) {
+            fetch('/toggle_repo', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ repo: repo })
+            }).then(() => location.reload());
+        }
+
+        window.onload = function () {
+            const params = new URLSearchParams(window.location.search);
+            const repo = params.get('repo');
+            if (repo) {
+                loadRepoDetails(repo);
+            }
+        };
+    </script>
+</head>
+
+<body>
+    <div id="content">
+        <button id="toggle-btn">---</button>
+        <h2><span id="repo-name">Project Name</span></h2>
+        <h3><span id="repo-description">Description</span></h3>
+        <h4>Topics: <span id="repo-topics"></span></h4>
+        <h4>Languages: <span id="repo-languages"></span></h4>
+        <div id="repo-readme">Loading...</div>
+    </div>
+</body>
+<style>
+    body {
+        display: flex;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+
+    #file-panel {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 15%;
+        height: 100vh;
+        overflow-y: auto;
+        border-right: 2px solid #ccc;
+        padding: 10px;
+        background-color: #f8f8f8;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    #content {
+        margin-left: 0%;
+        /* Adjust to avoid overlap with fixed sidebar */
+        padding: 0px;
+        flex-grow: 1;
+        overflow-y: auto;
+        background: rgb(228, 228, 228);
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .file-item {
+        cursor: pointer;
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+        background: white;
+        margin-bottom: 5px;
+        border-radius: 4px;
+    }
+
+    .file-item:hover {
+        background-color: #e0e0e0;
+    }
+
+    .file-item.selected {
+        background-color: #d0d0d0;
+        font-weight: bold;
+    }
+
+    h3,
+    h2 {
+        margin-top: 0;
+    }
+
+    .btn {
+        width: 100%;
+        /* Make the button full width */
+        padding: 15px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .btn.add {
+        background: green;
+        color: white;
+    }
+
+    .btn.remove {
+        background: red;
+        color: white;
+    }
+
+    #repo-readme {
+        border: 1px solid #ddd;
+        padding: 20px;
+        background: #d1d1d1;
+    }
+</style>
+
+</html>

@@ -21,6 +21,10 @@ github = Github(auth=auth)
 def index():
     return render_template("index.html")
 
+@app.route("/RepoPreviewer")
+def RepoPreviewer():
+    return render_template("RepoPreviewer.html")
+
 @app.route("/getRepoList", methods=["GET"])
 def get_repo_list():
     try:

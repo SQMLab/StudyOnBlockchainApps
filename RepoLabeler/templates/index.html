@@ -35,21 +35,22 @@
         };
 
         function loadRepoDetails(repo) {
-            fetch(`/repo/${repo}`)
-                .then(response => response.json())
-                .then(data => {
-                    document.getElementById("repo-name").textContent = data.Name;
-                    document.getElementById("repo-description").textContent = data.Description || "No description";
-                    document.getElementById("repo-topics").textContent = data.Topics || "No topics";
-                    document.getElementById("repo-languages").textContent = data.Languages || "No languages";
-                    document.getElementById("repo-readme").innerHTML = data.Readme;
-                    let btn = document.getElementById("toggle-btn");
-                    btn.textContent = data.IsApplication ? "Remove" : "Add";
-                    btn.classList.remove("add", "remove");
-                    btn.classList.add("btn");
-                    btn.classList.add(data.IsApplication ? "remove" : "add");
-                    btn.onclick = () => toggleRepo(data.Name);
-                });
+            changeIframeURL(repo);
+            // fetch(`/repo/${repo}`)
+            //     .then(response => response.json())
+            //     .then(data => {
+            //         document.getElementById("repo-name").textContent = data.Name;
+            //         document.getElementById("repo-description").textContent = data.Description || "No description";
+            //         document.getElementById("repo-topics").textContent = data.Topics || "No topics";
+            //         document.getElementById("repo-languages").textContent = data.Languages || "No languages";
+            //         document.getElementById("repo-readme").innerHTML = data.Readme;
+            //         let btn = document.getElementById("toggle-btn");
+            //         btn.textContent = data.IsApplication ? "Remove" : "Add";
+            //         btn.classList.remove("add", "remove");
+            //         btn.classList.add("btn");
+            //         btn.classList.add(data.IsApplication ? "remove" : "add");
+            //         btn.onclick = () => toggleRepo(data.Name);
+            //     });
         }
 
         function toggleRepo(repo) {
@@ -77,6 +78,11 @@
                 loadRepoDetails(repos[0])
             }
         };
+
+        function changeIframeURL(repo) {
+            console.log("http://127.0.0.1:5000/RepoPreviewer?repo="+repo)
+            document.getElementById("content").src = "http://127.0.0.1:5000/RepoPreviewer?repo="+repo;
+        }
     </script>
 </head>
 
@@ -86,14 +92,8 @@
         <h3>Repositories</h3>
         <div id="repo-list"></div>
     </div>
-    <div id="content">
-        <button id="toggle-btn">---</button>
-        <h2><span id="repo-name">Project Name</span></h2>
-        <h3><span id="repo-description">Description</span></h3>
-        <h4>Topics: <span id="repo-topics"></span></h4>
-        <h4>Languages: <span id="repo-languages"></span></h4>
-        <div id="repo-readme">Loading...</div>
-    </div>
+
+    <iframe id="content" src="https://gtihub.com"></iframe>
 </body>
 <style>
     body {
@@ -118,9 +118,9 @@
     }
 
     #content {
-        margin-left: 15%;
-        /* Adjust to avoid overlap with fixed sidebar */
-        padding: 10px;
+        margin-left: 7%;
+        height: 92vh;
+        width: 60vw;
         flex-grow: 1;
         overflow-y: auto;
         background: rgb(228, 228, 228);
