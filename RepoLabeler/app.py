@@ -10,8 +10,8 @@ import markdown
 
 app = Flask(__name__)
 
-filtered_repositories_path = "./Data/BlockchainAppRepositories-part2.csv"
-repositories_path = "./Data/repository-part2.csv"
+filtered_repositories_path = "./Data/BlockchainAppRepositories-part1.csv"
+repositories_path = "./Data/repository-part1.csv"
 
 ACCESS_TOKEN = json.load(open("./config"))["access_token"]
 auth = Auth.Token(ACCESS_TOKEN)
