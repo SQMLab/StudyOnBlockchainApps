@@ -1,0 +1,219 @@
+url,name,description,language,Category,blockchain,updated_at
+https://api.github.com/repos/MetaMask/metamask-extension,metamask-extension,:globe_with_meridians: :electric_plug: metamask chrome extension,JavaScript,Crypto,ethereum,2025-03-06 02:57:32+00:00
+https://api.github.com/repos/bitcoin-wallet/bitcoin-wallet,bitcoin-wallet,"Bitcoin Wallet app for your Android device. Standalone Bitcoin node, no centralized backend required.",Java,Crypto,bitcoin,2025-03-05 16:08:48+00:00
+https://api.github.com/repos/yasinkuyu/binance-trader,binance-trader,Bitcoin Trading Bot for Binance (Experimental),,Crypto,multi,2024-05-01 21:05:45+00:00
+https://api.github.com/repos/ConsenSys/Tokens,Tokens,Ethereum Token Contracts,JavaScript,Crypto,ethereum,2024-06-24 13:24:34+00:00
+https://api.github.com/repos/CryptoSignal/crypto-signal,crypto-signal,"Automated Crypto Trading & Technical Analysis (TA) Bot for Bittrex, Binance, GDAX, and more! (250+ coins)",Python,Crypto,multi,2024-07-07 15:33:11+00:00
+https://api.github.com/repos/hyperledger/blockchain-explorer,blockchain-explorer,,,Others,multi,2024-04-17 07:52:27+00:00
+https://api.github.com/repos/zkSNACKs/WalletWasabi,WalletWasabi,"Privacy focused, ZeroLink compliant Bitcoin wallet.",,Crypto,bitcoin,2025-02-25 15:28:50+00:00
+https://api.github.com/repos/aragon/aragon,aragon,Aragon dapp to create and manage blockchain companies.,,Others,ethereum,2025-02-25 16:53:58+00:00
+https://api.github.com/repos/btcsuite/btcwallet,btcwallet,A secure bitcoin wallet daemon written in Go (golang),Go,Crypto,bitcoin,2025-03-06 00:06:21+00:00
+https://api.github.com/repos/poanetwork/blockscout,blockscout,A tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum networks.,Elixir,Others,ethereum,2025-03-05 20:52:54+00:00
+https://api.github.com/repos/gurnec/btcrecover,btcrecover,"An open source Bitcoin wallet password and seed recovery tool designed for the case where you already know most of your password/seed, but need assistance in trying different possible combinations.",Python,Others,bitcoin,2024-08-02 04:13:10+00:00
+https://api.github.com/repos/district0x/ethlance,ethlance,Ethlance is the first job market platform built entirely on the Ethereum blockchain. Free to use forever!,Clojure,Others,ethereum,2025-03-05 22:21:54+00:00
+https://api.github.com/repos/square/subzero,subzero,Square's Bitcoin Cold Storage solution.,Java,Others,bitcoin,2025-03-06 04:24:34+00:00
+https://api.github.com/repos/LightningNetwork/lightning-onion,lightning-onion,Onion routed micropayments for the Bitcoin Lightning Network,Go,Crypto,bitcoin,2024-08-15 22:54:20+00:00
+https://api.github.com/repos/steemit/condenser,condenser,The social application web front-end to the Steem Blockchain.,JavaScript,Others,others,2025-02-22 00:17:25+00:00
+https://api.github.com/repos/gazbert/bxbot,bxbot,BX-bot (Bex) is a simple Java automated trading bot for trading Bitcoin on cryptocurrency exchanges,Java,Crypto,bitcoin,2024-11-30 23:30:51+00:00
+https://api.github.com/repos/jsappme/node-binance-trader,node-binance-trader,A Cryptocurrency Trading Bot for Binance using Node.JS,,Crypto,binance,2024-08-19 19:20:27+00:00
+https://api.github.com/repos/janoside/btc-rpc-explorer,btc-rpc-explorer,"Stateless Bitcoin blockchain explorer, via RPC. Build with Node.js, express, bootstrap-v4.",,Others,bitcoin,2024-12-16 15:24:01+00:00
+https://api.github.com/repos/ayeowch/bitnodes,bitnodes,Bitnodes is currently being developed to estimate the size of the Bitcoin network by finding all the reachable nodes in the network ·,Python,Others,bitcoin,2024-12-31 20:20:54+00:00
+https://api.github.com/repos/bither/bither-android,bither-android,Bither - a simple and secure Bitcoin wallet!,Java,Crypto,bitcoin,2024-11-21 07:52:24+00:00
+https://api.github.com/repos/OpenZeppelin/ethernaut,ethernaut,Solidity based wargame,JavaScript,Others,ethereum,2025-03-03 17:48:00+00:00
+https://api.github.com/repos/monero-project/monero-gui,monero-gui,"Monero: the secure, private, untraceable cryptocurrency",QML,Others,monero,2025-03-02 12:35:57+00:00
+https://api.github.com/repos/fravoll/solidity-patterns,solidity-patterns,A compilation of patterns and best practices for the smart contract programming language Solidity I am compiling for my master's thesis.,,Others,ethereum,2024-04-19 08:52:31+00:00
+https://api.github.com/repos/busyorg/busy,busy,Decentralized social network based on Steem blockchain,JavaScript,Others,others,2024-02-26 09:16:50+00:00
+https://api.github.com/repos/Blockstream/esplora,esplora,Explorer for Bitcoin and Liquid,JavaScript,Others,bitcoin,2025-02-24 21:06:14+00:00
+https://api.github.com/repos/PolymathNetwork/polymath-core,polymath-core,Core Ethereum Smart Contracts for Polymath - The Securities Token Platform,JavaScript,Crypto,ethereum,2024-06-18 23:14:39+00:00
+https://api.github.com/repos/TrustWallet/wallet-core,wallet-core,"Cross-platform, cross-blockchain wallet library.",C,Crypto,multi,2025-03-05 17:17:26+00:00
+https://api.github.com/repos/blockchain-certificates/cert-issuer,cert-issuer,Issues digital certificates using the Bitcoin blockchain,Python,Others,bitcoin,2025-02-21 01:30:49+00:00
+https://api.github.com/repos/MyEtherWallet/ethereum-lists,ethereum-lists,"A repository for maintaining lists of things like malicious URLs, fake token addresses, and so forth. We love lists.",,Others,ethereum,2025-03-03 18:58:04+00:00
+https://api.github.com/repos/bither/bither-ios,bither-ios,Bither - a simple and secure Bitcoin wallet!,Objective-C,Crypto,bitcoin,2024-11-20 00:56:41+00:00
+https://api.github.com/repos/Giveth/giveth-dapp,giveth-dapp,The giveth dapp MVP,,Others,ethereum,2024-06-05 23:46:53+00:00
+https://api.github.com/repos/DingdingKim/CoinNow,CoinNow,"Provide current quotes of coins(BTC, ETH, DASH, LTC, ETC, XRP) in real time from Bithumb and Poloniex.",,Crypto,multi,2024-06-26 15:07:19+00:00
+https://api.github.com/repos/blockchain/blockchain-wallet-v4-frontend,blockchain-wallet-v4-frontend,Pre-release,JavaScript,Crypto,multi,2024-12-03 19:52:30+00:00
+https://api.github.com/repos/mycelium-com/wallet-android,wallet-android,Mycelium Bitcoin Wallet for Android,Java,Crypto,bitcoin,2025-02-19 21:53:24+00:00
+https://api.github.com/repos/Uniswap/uniswap-frontend,uniswap-frontend,,JavaScript,Others,uniswap,2025-03-05 22:04:36+00:00
+https://api.github.com/repos/polkadot-js/apps,apps,Basic Polkadot/Substrate UI for interacting with a node,JavaScript,Others,polkadot,2025-03-06 04:25:40+00:00
+https://api.github.com/repos/decred/decrediton,decrediton,Cross platform GUI for decred,,Others,decred,2025-03-04 15:40:20+00:00
+https://api.github.com/repos/rocket-pool/rocketpool,rocketpool,A next generation decentralised Ethereum proof of stake (POS) pool currently in Alpha and built to be compatible with Casper.,JavaScript,Crypto,ethereum,2025-02-11 03:05:19+00:00
+https://api.github.com/repos/floating/frame,frame,A cross-platform Ethereum provider interface,,Others,ethereum,2025-02-03 23:34:57+00:00
+https://api.github.com/repos/moneroexamples/onion-monero-blockchain-explorer,onion-monero-blockchain-explorer,,C++,Others,monero,2025-02-18 06:56:46+00:00
+https://api.github.com/repos/gnosis/safe-contracts,safe-contracts,Gnosis Safe allows secure management of blockchain assets. ,Solidity,Others,ethereum,2025-02-28 09:59:47+00:00
+https://api.github.com/repos/stellarterm/stellarterm,stellarterm,Advanced web based trading client for the Stellar network. ????????????????,JavaScript,Crypto,stellar,2025-03-04 19:22:33+00:00
+https://api.github.com/repos/thousandetherhomepage/ketherhomepage,ketherhomepage,Own a piece of blockchain history!,,Others,ethereum,2025-03-04 09:27:58+00:00
+https://api.github.com/repos/AudiusProject/hedgehog,hedgehog,???? Build DApps like Apps -- A Metamask alternative that empowers you to build good UX,JavaScript,Crypto,ethereum,2024-06-26 16:36:23+00:00
+https://api.github.com/repos/almindor/etherwall,etherwall,Ethereum QT5 Wallet,C++,Crypto,ethereum,2024-09-28 16:26:38+00:00
+https://api.github.com/repos/mynodebtc/mynode,mynode,The easiest way to run Bitcoin and Lightning!,HTML,Crypto,bitcoin,2025-03-05 03:46:55+00:00
+https://api.github.com/repos/ZeusLN/zeus,zeus,,,Crypto,bitcoin,2025-03-05 21:48:29+00:00
+https://api.github.com/repos/jpmorganchase/anonymous-zether,anonymous-zether,A private payment system for Ethereum-based blockchains.,JavaScript,Crypto,ethereum,2024-06-24 13:22:46+00:00
+https://api.github.com/repos/miguelmota/go-ethereum-hdwallet,go-ethereum-hdwallet,,,Crypto,ethereum,2024-06-27 03:59:05+00:00
+https://api.github.com/repos/OttoAllmendinger/gnome-shell-bitcoin-markets,gnome-shell-bitcoin-markets,,JavaScript,Crypto,bitcoin,2024-12-28 12:56:31+00:00
+https://api.github.com/repos/decentraland/marketplace,marketplace,"????️ Decentraland LAND manager, wallet and marketplace",JavaScript,Others,decentraland,2025-03-03 17:48:46+00:00
+https://api.github.com/repos/WalletConnect/walletconnect-monorepo,walletconnect-monorepo,Walletconnect monorepo,,Crypto,ethereum,2025-03-05 14:16:06+00:00
+https://api.github.com/repos/MetaMask/metamask-mobile,metamask-mobile,Mobile web browser providing access to websites that use the Ethereum blockchain,JavaScript,Crypto,ethereum,2025-03-06 04:20:45+00:00
+https://api.github.com/repos/enKryptIO/ethvm,ethvm,ethereum block explorer,Vue,Others,ethereum,2025-01-10 18:55:12+00:00
+https://api.github.com/repos/mmgen/mmgen,mmgen,lightweight online/offline Bitcoin wallet/cold storage solution for the command line,Python,Crypto,bitcoin,2025-03-04 09:59:52+00:00
+https://api.github.com/repos/wavesplatform/WavesExplorerLite,WavesExplorerLite,Pure AngularJS explorer for Waves Blockchain,,Others,waves,2024-08-21 15:35:22+00:00
+https://api.github.com/repos/okex/okchain,okchain,The Infrastructure of Decentralized Exchange,Go,Crypto,cosmos,2025-02-06 08:27:48+00:00
+https://api.github.com/repos/decred/dcrdata,dcrdata,"Decred block explorer, with packages and apps for data collection and storage. Written in Go.",Go,Others,decred,2024-09-23 14:38:01+00:00
+https://api.github.com/repos/vacuumlabs/adalite,adalite,A lightweight wallet for Cardano cryptocurrency,HTML,Crypto,cardano,2025-03-03 14:19:36+00:00
+https://api.github.com/repos/mempool/mempool,mempool,Realtime Bitcoin blockchain explorer and mempool visualizer,TypeScript,Others,bitcoin,2025-03-06 03:54:29+00:00
+https://api.github.com/repos/Havven/havven,havven,Havven Solidity smart contracts,Python,Others,ethereum,2025-02-27 05:07:45+00:00
+https://api.github.com/repos/naddison36/tx2uml,tx2uml,Ethereum transaction visualizer. Generates UML sequence diagram for a transaction's contract calls.,TypeScript,Others,ethereum,2025-01-24 00:11:09+00:00
+https://api.github.com/repos/electrumsv/electrumsv,electrumsv,A desktop wallet for Bitcoin SV,,Crypto,bitcoin sv,2024-03-13 03:42:51+00:00
+https://api.github.com/repos/jtgrassie/monero-pool,monero-pool,,C++,Crypto,monero,2024-03-10 02:18:47+00:00
+https://api.github.com/repos/cybercongress/go-cyber,go-cyber,"A Consensus Supercomputer for computing relevance in web3, built with Cosmos-SDK & CUDA #fuckgoogle",Go,Others,cosmos,2024-12-12 00:08:00+00:00
+https://api.github.com/repos/DecentricCorp/Coval-Unspecified-Ml-Blockchain,Coval-Unspecified-Ml-Blockchain,,,Others,ethereum,2024-12-20 04:29:09+00:00
+https://api.github.com/repos/Kava-Labs/kava,kava,A decentralized fast-finality blockchain for interoperable payment channel networks.,Go,Crypto,cosmos,2025-02-18 17:05:24+00:00
+https://api.github.com/repos/Synthetixio/synthetix,synthetix,Synthetix Solidity smart contracts,JavaScript,Others,synthetix,2025-02-27 05:07:45+00:00
+https://api.github.com/repos/cryptoadvance/specter-desktop,specter-desktop,(Work In Progress) A desktop GUI for Bitcoin Core optimised to work with airgapped hardware wallets,Python,Others,bitcoin,2025-01-03 18:48:23+00:00
+https://api.github.com/repos/chatch/stellarexplorer,stellarexplorer,Ledger Explorer for the Stellar Network,,Others,stellar,2025-01-06 19:51:35+00:00
+https://api.github.com/repos/mollie/OpenCart,OpenCart,"iDEAL, Creditcard, Bancontact/Mister Cash, SOFORT, Bank transfer, Bitcoin, PayPal & paysafecard for OpenCart 1.5.6+ and  OpenCart 2.0+.",PHP,Crypto,bitcoin,2025-01-29 08:59:37+00:00
+https://api.github.com/repos/ETCDEVTeam/emerald-wallet,emerald-wallet,Emerald Wallet / Ethereum Classic Wallet,JavaScript,Crypto,multi,2025-03-04 21:18:55+00:00
+https://api.github.com/repos/SatoshiPortal/dockers,dockers,Make it easier to live in a Bitcoin world,,Others,bitcoin,2024-07-30 23:44:39+00:00
+https://api.github.com/repos/ValleZ/Paper-Wallet,Paper-Wallet,Bitcoin paper wallet,Java,Crypto,bitcoin,2024-04-21 14:32:45+00:00
+https://api.github.com/repos/crytic/solc-select,solc-select,A script to quickly switch between Solidity compiler versions,Shell,Others,ethereum,2025-02-27 08:31:11+00:00
+https://api.github.com/repos/cybercongress/cyb,cyb,???? Front door to the blockchain universe,TypeScript,Others,multi,2025-01-30 11:23:36+00:00
+https://api.github.com/repos/modood/btckeygen,btckeygen,"A very simple and easy to use bitcoin(btc) key/wallet generator. A Golang implementation of the BIP32/BIP39/BIP43/BIP44/SLIP44/BIP49/BIP84/BIP173 for creating keys, mnemonic seeds and Hierarchical Deterministic (HD) addresses.",Go,Crypto,multi,2024-06-20 09:45:31+00:00
+https://api.github.com/repos/koraylinux/paper-wallet,paper-wallet,"Lightweight, open-source, universal paper wallet generator",JavaScript,Crypto,bitcoin,2024-11-04 07:54:11+00:00
+https://api.github.com/repos/Toporin/SatoChipApplet,SatoChipApplet,Open source javacard applet implementing a Bitcoin hardware wallet with partial BIP32 support,Java,Crypto,bitcoin,2024-12-19 13:51:49+00:00
+https://api.github.com/repos/MagicalBitcoin/magical-bitcoin-wallet,magical-bitcoin-wallet,,Rust,Crypto,bitcoin,2025-03-06 00:57:28+00:00
+https://api.github.com/repos/litecoincash-project/litecoincash,litecoincash,Staging/intergration tree for Litecoin Cash core wallet.,C++,Crypto,litecoin,2024-04-07 12:17:09+00:00
+https://api.github.com/repos/Karbovanets/Karbowanec-Blockchain-Explorer,Karbowanec-Blockchain-Explorer,Block explorer for Karbowanec CryptoNote based cryptocurrency.,,Crypto,others,2025-01-26 01:54:24+00:00
+https://api.github.com/repos/mollie/Prestashop,Prestashop,"iDEAL, Creditcard, Bancontact/Mister Cash, SOFORT, Bank transfer, Bitcoin, PayPal & paysafecard for Prestashop",PHP,Crypto,bitcoin,2025-03-05 12:26:00+00:00
+https://api.github.com/repos/ddnlink/ddn,ddn,"DDN, Data Delivery Network,  a next generation blockchain system",JavaScript,Others,bitcoin,2025-01-24 01:48:31+00:00
+https://api.github.com/repos/ensdomains/ens-app,ens-app,"Integrated ENS app with registrar, manager and sub-domain registrar combined",JavaScript,Others,ethereum,2024-08-06 08:56:45+00:00
+https://api.github.com/repos/gnosis/ethcontract-rs,ethcontract-rs,Generate type-safe bindings for interacting with Ethereum contracts.,Rust,Crypto,ethereum,2025-01-06 18:17:48+00:00
+https://api.github.com/repos/xaya/xaya,xaya,XAYA - Opensource Blockchain Gaming Platform,C++,Others,others,2025-03-03 13:09:50+00:00
+https://api.github.com/repos/microsoft/0xDeCA10B,0xDeCA10B,Decentralized & Collaborative AI on Blockchain,JavaScript,Others,0x,2024-12-20 04:40:05+00:00
+https://api.github.com/repos/cleanunicorn/karl,karl,Monitor smart contracts deployed on blockchain and test against vulnerabilities,Python,Others,ethereum,2025-02-13 19:45:24+00:00
+https://api.github.com/repos/staketechnologies/Plasm,Plasm,The Scaling DApps Platform on Polkadot using Plasma and State Channel.,Rust,Others,multi,2025-03-05 15:51:39+00:00
+https://api.github.com/repos/bitcoinjs/wif,wif,Bitcoin Wallet Import Format JS encoding/decoding module,JavaScript,Crypto,bitcoin,2024-06-25 11:45:22+00:00
+https://api.github.com/repos/mollie/Magento,Magento,"iDEAL, Creditcard, Bancontact/Mister Cash, SOFORT, Bank transfer, Bitcoin, PayPal & paysafecard for Magento",PHP,Crypto,bitcoin,2024-07-15 09:06:04+00:00
+https://api.github.com/repos/horizontalsystems/bitcoin-kit-android,bitcoin-kit-android, Full SPV wallet toolkit implementation for Bitcoin and Bitcoin Cash protocols. Implemented on Kotlin.,Kotlin,Crypto,multi,2025-03-04 09:46:07+00:00
+https://api.github.com/repos/web3connect/web3connect,web3connect,A single Web3 / Ethereum provider solution for all Wallets,TypeScript,Crypto,ethereum,2025-03-04 14:27:42+00:00
+https://api.github.com/repos/goerli/ethstats-server,ethstats-server,Ethereum network status dashboard for PoW and PoA networks,JavaScript,Others,ethereum,2024-12-17 16:59:13+00:00
+https://api.github.com/repos/in3rsha/bitcoin-utxo-dump,bitcoin-utxo-dump,Get a list of UTXOs (unspent transaction outputs) from your Bitcoin Core client.,Go,Crypto,bitcoin,2024-03-06 12:09:30+00:00
+https://api.github.com/repos/iExecBlockchainComputing/iexec-dapps-registry,iexec-dapps-registry,Registry for sample iExec dapps,JavaScript,Others,multi,2024-04-24 07:15:59+00:00
+https://api.github.com/repos/stoodkev/hive-keychain,hive-keychain,A wallet browser extension for the Hive blockchain and cryptocurrency,JavaScript,Crypto,others,2025-03-05 02:27:13+00:00
+https://api.github.com/repos/modood/xmrkeygen,xmrkeygen,A very simple and easy to use monero(xmr) key/wallet generator.,Go,Crypto,monero,2024-04-07 03:33:38+00:00
+https://api.github.com/repos/binance-chain/whitepaper,whitepaper,Binance Smart Chain,,Crypto,binance,2024-08-20 02:08:54+00:00
+https://api.github.com/repos/smartbugs/smartbugs,smartbugs,SmartBugs: A Dataset of Vulnerable Solidity Smart Contracts,Python,Others,ethereum,2025-03-03 17:22:42+00:00
+https://api.github.com/repos/LedgerHQ/ledger-app-monero,ledger-app-monero,Monero wallet application for Ledger Blue and Nano S,Python,Crypto,monero,2025-02-26 16:53:37+00:00
+https://api.github.com/repos/Nethereum/NethereumBlazor,NethereumBlazor,"Nethereum Light Blockchain Explorer Explorer, Wallet using Blazor, ReactiveUI",C#,Crypto,ethereum,2024-07-09 21:20:21+00:00
+https://api.github.com/repos/ConsenSys/blockchainSecurityDB,blockchainSecurityDB,,HTML,Others,multi,2024-06-24 13:22:54+00:00
+https://api.github.com/repos/monero-ecosystem/monero-javascript,monero-javascript,Monero wallet and daemon JavaScript API.,JavaScript,Crypto,monero,2025-02-28 13:55:16+00:00
+https://api.github.com/repos/Someguy123/LiteVault,LiteVault,LiteVault - Secure Online Litecoin Wallet https://www.litevault.net,JavaScript,Crypto,litecoin,2024-12-08 01:36:26+00:00
+https://api.github.com/repos/MetaMask/eth-hd-keyring,eth-hd-keyring,A simple standard interface for an HD ethereum wallet.,,Crypto,ethereum,2024-10-07 08:50:36+00:00
+https://api.github.com/repos/madfish-solutions/thanos-wallet,thanos-wallet,"Wallet for Tezos blockchain as browser extension. Providing ability to manage NFT, XTZ tokens & interact with dApps",TypeScript,Crypto,tezos,2025-03-05 20:34:38+00:00
+https://api.github.com/repos/cculianu/Fulcrum,Fulcrum,A fast & nimble SPV Server for Bitcoin Cash,C++,Crypto,multi,2025-02-13 01:06:16+00:00
+https://api.github.com/repos/LedgerHQ/ledger-app-btc,ledger-app-btc,Bitcoin wallet application for Ledger Blue and Nano S,C,Crypto,bitcoin,2024-12-18 15:57:51+00:00
+https://api.github.com/repos/tomochain/tomomaster,tomomaster,"Validators Voting Contracts, Governance DApps",Vue,Others,ethereum,2024-12-12 15:37:16+00:00
+https://api.github.com/repos/cointastical/P2P-Trading-Exchanges,P2P-Trading-Exchanges,Person-to-Person bitcoin Trading Exchanges,,Crypto,bitcoin,2024-07-21 23:45:43+00:00
+https://api.github.com/repos/mzollin/qr-pirate,qr-pirate,crawl QR-codes from search engines and look for bitcoin private keys,Python,Others,bitcoin,2025-02-26 20:45:06+00:00
+https://api.github.com/repos/decred/dcrtime,dcrtime,"Decred anchored timestamp client, proxy and server.",,Others,decred,2025-02-14 19:23:01+00:00
+https://api.github.com/repos/qtumproject/qtum-web-wallet,qtum-web-wallet,A web wallet for QTUM,Vue,Crypto,qtum,2024-03-27 02:24:04+00:00
+https://api.github.com/repos/ontio/ontology-explorer,ontology-explorer,Ontology blockchain explorer,,Others,ontology,2025-03-04 02:52:07+00:00
+https://api.github.com/repos/LedgerHQ/ledger-app-eth,ledger-app-eth,Ethereum wallet application for Ledger Blue and Nano S,C,Crypto,ethereum,2025-03-05 17:12:17+00:00
+https://api.github.com/repos/AdChain/AdChainRegistryDapp,AdChainRegistryDapp,adChain Registry dApp,JavaScript,Others,ethereum,2024-06-13 15:55:36+00:00
+https://api.github.com/repos/gcash/bchwallet,bchwallet,A secure bitcoin cash wallet daemon written in Go (golang),Go,Crypto,multi,2025-01-15 07:25:28+00:00
+https://api.github.com/repos/PierreRochard/bitcoin-acks,bitcoin-acks,,Python,Others,bitcoin,2024-04-22 19:21:02+00:00
+https://api.github.com/repos/openberry-ac/instagram,instagram,Create an Instagram-like DApp with IPFS ,JavaScript,Others,others,2025-02-15 09:10:29+00:00
+https://api.github.com/repos/simondlr/thisartworkisalwaysonsale,thisartworkisalwaysonsale,A digital art project on Ethereum that uses harberger tax to have an always-on auction. Tax is patronage to artist.,,Others,ethereum,2024-05-29 19:08:00+00:00
+https://api.github.com/repos/coinolio/coinolio,coinolio,"Bitcoin and Altcoin trades logging and tracking. Including Profit / Loss calculations, Price Charts and realtime updates.",,Crypto,multi,2024-07-03 06:33:24+00:00
+https://api.github.com/repos/IBM/fabric-contract-attribute-based-access-control,fabric-contract-attribute-based-access-control,A repo to demonstrate how to implement attribute-based-access-control in Hyperledger Fabric for a supply-chain use case using IBM Blockchain Platform VSCode extension.,JavaScript,Others,hyperledger fabric,2024-04-03 18:22:48+00:00
+https://api.github.com/repos/curly60e/pyblock,pyblock,Bitcoin Blockclock ,Python,Crypto,bitcoin,2025-02-25 17:37:53+00:00
+https://api.github.com/repos/tintinweb/smart-contract-sanctuary,smart-contract-sanctuary,???????????????????? That place where ethereum smart contracts feel home.,,Others,ethereum,2024-06-28 00:05:40+00:00
+https://api.github.com/repos/zcash/zcash-android-wallet-sdk,zcash-android-wallet-sdk,Wallet Proof of Concept,Rust,Crypto,zcash,2025-03-03 15:59:05+00:00
+https://api.github.com/repos/darwinia-network/darwinia,darwinia,"Darwinia: The hub relay chain for the darwinia parachains and appchains, able to connect to Polkadot",,Others,polkadot,2025-03-06 00:25:52+00:00
+https://api.github.com/repos/skalenetwork/sgxwallet,sgxwallet,"sgxwallet is a next generation hardware secure crypto wallet that is based on Intel SGX technology. It currently supports Ethereum and SKALE, and will support Bitcoin in the future.  Sgxwallet is under heavy development and use by SKALE.",C++,Crypto,multi,2025-02-04 13:56:43+00:00
+https://api.github.com/repos/invisible-college/democracy,democracy,An Ethereum distributed app (dapp) for recording work-hours and sharing a multi-signature wallet.,HTML,Crypto,ethereum,2024-07-26 23:32:01+00:00
+https://api.github.com/repos/everett-protocol/keplr-extension,keplr-extension,Keplr is a browser extension wallet for the Inter blockchain ecosystem.,TypeScript,Crypto,cosmos,2025-03-06 04:38:11+00:00
+https://api.github.com/repos/jonatack/bitcoin-development,bitcoin-development,"Various notes, todos and ideas for development work on Bitcoin",,Others,bitcoin,2024-12-05 15:17:04+00:00
+https://api.github.com/repos/horizontalsystems/ethereum-kit-android,ethereum-kit-android,Open-source fully functional wallet implementation for Ethereum protocol. Using this toolkit you can built ethereum + ERC 20 token wallet in no time :),,Crypto,ethereum,2025-02-28 11:30:09+00:00
+https://api.github.com/repos/cashweb/stamp,stamp,Stamp is a Bitcoin Cash powered internet relay chat,JavaScript,Others,bitcoin cash,2024-05-02 03:02:15+00:00
+https://api.github.com/repos/electroneum/electroneum-blockchain-explorer,electroneum-blockchain-explorer,,,Others,tron,2024-03-29 10:24:06+00:00
+https://api.github.com/repos/bubelov/coins-android,coins-android,Thousands of merchants already accept Bitcoin. This app will help you find them.,Java,Others,bitcoin,2025-01-25 14:27:37+00:00
+https://api.github.com/repos/thetatoken/theta-infrastructure-ledger-explorer,theta-infrastructure-ledger-explorer,Explorer for the Theta Ledger,JavaScript,Others,theta,2025-02-05 03:03:04+00:00
+https://api.github.com/repos/BlocknetDX/blockdx-ui,blockdx-ui,BLOCK DX p2p exchange dapp,JavaScript,Crypto,others,2024-04-03 16:35:58+00:00
+https://api.github.com/repos/input-output-hk/cardano-ledger-specs,cardano-ledger-specs,A formal specification and executable model of the ledger rules introduced by the Shelley release,TeX,Crypto,cardano,2025-03-05 18:44:21+00:00
+https://api.github.com/repos/Councilbox/cbx-quorum-explorer,cbx-quorum-explorer,The open source block explorer for Quorum-based blockchains ⛓️,JavaScript,Others,quorum,2024-10-23 13:55:16+00:00
+https://api.github.com/repos/Synthetixio/synthetix-js,synthetix-js,Stablecoin payments for your JavaScript crypto dApps,JavaScript,Crypto,multi,2024-08-26 14:49:40+00:00
+https://api.github.com/repos/GoodDollar/GoodDAPP,GoodDAPP,,,Crypto,ethereum,2025-03-05 10:19:28+00:00
+https://api.github.com/repos/tycooperaow/ipfstagram,ipfstagram,A blockchain powered verison of instagram,JavaScript,Others,others,2024-10-25 04:27:05+00:00
+https://api.github.com/repos/crossclaim/xclaim-sol,xclaim-sol,"XCLAIM(BTC,ETH): Solidity implementation for Bitcoin backed tokens on Ethereum",JavaScript,Crypto,multi,2024-03-25 22:04:17+00:00
+https://api.github.com/repos/Coldcard/ckbunker,ckbunker,CKBunker - A Bitcoin HSM solution to securely authorize transactions using an online Coldcard (over Tor),JavaScript,Others,bitcoin,2024-08-06 11:12:34+00:00
+https://api.github.com/repos/openeth-dev/gsn,gsn,GSN - Ethereum Gas Station Network,JavaScript,Others,ethereum,2024-10-04 23:35:50+00:00
+https://api.github.com/repos/status-im/ens-usernames,ens-usernames,,,Others,ethereum,2024-06-24 17:29:48+00:00
+https://api.github.com/repos/artyomLisovskij/solidity-erc20-token-bootstrap,solidity-erc20-token-bootstrap,This is basic ERC20 ethereum token source code.,,Crypto,ethereum,2024-04-05 10:35:47+00:00
+https://api.github.com/repos/exonum/blockchain-explorer,blockchain-explorer,An explorer for Exonum blockchains,JavaScript,Others,others,2024-03-09 17:23:21+00:00
+https://api.github.com/repos/Savjee/savjeecoin-frontend,savjeecoin-frontend,,TypeScript,Others,others,2025-02-15 11:24:26+00:00
+https://api.github.com/repos/hsjoberg/blixt-wallet,blixt-wallet,Bitcoin Lightning Wallet with focus on usability and user experience,TypeScript,Crypto,bitcoin,2025-03-01 16:29:55+00:00
+https://api.github.com/repos/Rishabh42/HealthCare-Insurance-Ethereum,HealthCare-Insurance-Ethereum,An Insurance claiming DApp which uses Multi-Sigs to grant claim.,JavaScript,Others,ethereum,2024-11-21 02:16:00+00:00
+https://api.github.com/repos/monerium/smart-contracts,smart-contracts,Smart contracts deployed on Ethereum,JavaScript,Others,ethereum,2025-02-20 15:10:12+00:00
+https://api.github.com/repos/ETCDEVTeam/emerald-rs,emerald-rs,Secure account management for Ethereum Classic,Rust,Others,ethereum classic,2025-03-03 22:27:32+00:00
+https://api.github.com/repos/moosylog/exchange_collectors,exchange_collectors,Google Apps Script GAS | bittrex bitfinex bitmex binance huobi poloniex | Google Sheets | Javascript,JavaScript,Crypto,binance,2024-11-27 17:28:13+00:00
+https://api.github.com/repos/btspp/bitshares-mobile-app,bitshares-mobile-app,This is the mobile app for bitshares blockchain,,Others,others,2025-02-19 16:02:33+00:00
+https://api.github.com/repos/EYBlockchain/timber,timber,Construct a Merkle Tree database from Ethereum logs.,JavaScript,Others,ethereum,2025-03-05 14:14:28+00:00
+https://api.github.com/repos/zilpay/zil-pay,zil-pay,The ZilPay browser extension enables browsing Zilliqa blockchain enabled websites.,JavaScript,Crypto,zilliqa,2025-03-05 03:54:16+00:00
+https://api.github.com/repos/dashed-slug/wallets,wallets,"Bitcoin and Altcoin Wallets FREE WordPress Plugin: Turn your blog into a bank: Let your users deposit, withdraw, and transfer bitcoins and altcoins on your site.",,Crypto,bitcoin,2024-11-06 10:58:11+00:00
+https://api.github.com/repos/enarjord/passivbot,passivbot,trading bot running on binance margin,Python,Crypto,binance,2025-03-05 16:16:40+00:00
+https://api.github.com/repos/BitcoinUnlimited/BitcoinUnlimitedWeb,BitcoinUnlimitedWeb,,JavaScript,Others,bitcoin,2024-05-29 08:43:04+00:00
+https://api.github.com/repos/robsecord/gatsby-eth-dapp-starter,gatsby-eth-dapp-starter,Gatsby v2 Starter for Ethereum Dapps using Web3 with various Account Management options,JavaScript,Others,ethereum,2025-02-17 05:17:49+00:00
+https://api.github.com/repos/aeternity/aepp-base,aepp-base,Identity Manager for the aeternity blockchain,Vue,Others,others,2025-02-24 08:16:54+00:00
+https://api.github.com/repos/blockfirm/pine-app,pine-app,???? Pine is an open-source bitcoin wallet for sending and receiving money among your friends.,JavaScript,Crypto,bitcoin,2024-08-09 18:55:33+00:00
+https://api.github.com/repos/pgrimaud/lametric-bitcoin-realtime,lametric-bitcoin-realtime,"This application updates every 5 seconds the Bitcoin price from Bitstamp or Bitfinex, bitcoin exchanges.",PHP,Crypto,bitcoin,2024-05-14 15:01:29+00:00
+https://api.github.com/repos/chainapsis/keplr-extension,keplr-extension,Keplr is a browser extension wallet for the Inter blockchain ecosystem.,TypeScript,Crypto,multi,2025-03-06 04:38:11+00:00
+https://api.github.com/repos/canokaue/ImmunoLynk,ImmunoLynk,[MIT Hack] COVID Immunity testing results registered to the Blockchain for healthcare safety.,Python,Others,multi,2024-04-16 23:50:25+00:00
+https://api.github.com/repos/CryptoLions/EOS-Network-Monitor-back,EOS-Network-Monitor-back,EOS Network Monitor backend,,Others,eos,2024-06-19 17:11:10+00:00
+https://api.github.com/repos/monero-ecosystem/monero-java-rpc,monero-java-rpc,Monero wallet Java implementation,Java,Crypto,monero,2025-02-13 12:49:52+00:00
+https://api.github.com/repos/mojojojo20/ColdBlocks,ColdBlocks,:truck: :snowflake: Blockchain for Cold Chain Networks with IoT and Optimal Route Prediction,JavaScript,Others,hyperledger fabric,2024-05-23 04:14:40+00:00
+https://api.github.com/repos/desmos-labs/desmos,desmos,Improving the well-being of users on social networks through the blockchain technology.,Go,Others,cosmos,2024-11-28 16:56:12+00:00
+https://api.github.com/repos/curly60e/python-blockclock,python-blockclock,Bitcoin Blockclock ,Python,Others,bitcoin,2025-02-25 17:37:53+00:00
+https://api.github.com/repos/AdExNetwork/adex-dapp,adex-dapp,AdEx dapp UI (WIP),JavaScript,Others,ethereum,2024-04-18 11:48:13+00:00
+https://api.github.com/repos/lich666dead/zil-pay,zil-pay,The ZilPay browser extension enables browsing Zilliqa blockchain enabled websites.,JavaScript,Others,zilliqa,2025-03-05 03:54:16+00:00
+https://api.github.com/repos/AndreMiras/Etheroll,Etheroll,Provably fair dice game running on the Ethereum blockchain,JavaScript,Others,ethereum,2024-09-26 11:21:48+00:00
+https://api.github.com/repos/UNSW-CEEM/NEMOSIS,NEMOSIS,(nem-data) -> NEMOSIS: NEM Open-source data service,Python,Others,nem,2025-02-07 04:53:33+00:00
+https://api.github.com/repos/commerceblock/mainstay,mainstay,Federated blockchain attestation daemon,Go,Others,bitcoin,2024-03-25 17:28:31+00:00
+https://api.github.com/repos/paraswap/paraswap-sdk,paraswap-sdk,ParaSwap allows dApps and traders to get the best DEX liquidity by aggregating multiple markets and offering the best rates,TypeScript,Crypto,multi,2024-12-13 11:08:14+00:00
+https://api.github.com/repos/ConsenSys/EthereumRegistrationAuthority,EthereumRegistrationAuthority,,JavaScript,Others,ethereum,2024-06-24 13:23:58+00:00
+https://api.github.com/repos/scala-network/Scala,Scala,A cryptocurrency aiming to use blockchain technologies to globally distribute wealth.,C++,Others,others,2025-03-04 11:49:54+00:00
+https://api.github.com/repos/Bitcoin-com/bitcoin-cash-merchant-ios,bitcoin-cash-merchant-ios,Bitcoin Cash Merchant App (iOS),Swift,Others,bitcoin cash,2024-04-15 03:02:27+00:00
+https://api.github.com/repos/morelazers/burner-choo,burner-choo,minimum viable ethereum burner wallet in choojs,JavaScript,Crypto,ethereum,2025-02-13 02:41:41+00:00
+https://api.github.com/repos/Zilliqa/ZRC,ZRC,Zilliqa Reference Contracts,,Others,zilliqa,2024-09-12 10:55:39+00:00
+https://api.github.com/repos/singnet/snet-marketplace-service,snet-marketplace-service,Serves as an index for use by the DApp. Provides a curated set of Services and its details,,Others,others,2025-02-07 15:13:59+00:00
+https://api.github.com/repos/0age/create2crunch,create2crunch,A Rust program for finding salts that create gas-efficient Ethereum addresses via CREATE2.,Rust,Others,ethereum,2024-08-07 03:59:52+00:00
+https://api.github.com/repos/BlocknetDX/block-dx,block-dx,BLOCK DX p2p exchange dapp,JavaScript,Others,ethereum,2024-04-03 16:35:58+00:00
+https://api.github.com/repos/kleros/escrow,escrow,Decentralized Escrow - Ethereum Project,JavaScript,Others,ethereum,2024-12-09 11:29:39+00:00
+https://api.github.com/repos/jammy928/CoinExchange_CryptoExchange_Java,CoinExchange_CryptoExchange_Java,"The best Java open source crypto currency exchange platform, bitcoin exchange based on Java | BTC exchange | ETH exchange | digital currency exchange | trading platform | matching trading engine. This project is based on the development of Spring Cloud mi",Java,Crypto,bitcoin,2024-05-12 15:29:18+00:00
+https://api.github.com/repos/snaketh4x0r/SocialStreams,SocialStreams,Stream money for people's time using uniswap and sablier,JavaScript,Others,uniswap,2024-04-23 02:10:54+00:00
+https://api.github.com/repos/merc1er/bchtipbot,bchtipbot,Telegram Bitcoin Cash Tipping Bot,Python,Others,bitcoin cash,2024-09-02 10:51:14+00:00
+https://api.github.com/repos/btcpayserver/directory.btcpayserver.org,directory.btcpayserver.org,"BTCPay Server Directory - Merchants, Projects & Charities accepting Bitcoin",,Others,bitcoin,2025-02-14 05:55:07+00:00
+https://api.github.com/repos/valueinstrument/v-alpha-2,v-alpha-2,Value Instrument Prototype - Version 2,JavaScript,Others,ethereum,2025-02-10 19:34:32+00:00
+https://api.github.com/repos/JoinColony/colonyDapp,colonyDapp,"The dAppest version of Colony, ever",TypeScript,Others,ethereum,2024-05-22 07:25:39+00:00
+https://api.github.com/repos/nori-dot-eco/contracts,contracts,The ethereum smart contracts that power nori.com,JavaScript,Others,ethereum,2024-04-16 20:59:38+00:00
+https://api.github.com/repos/monero-ecosystem/telegram-monerotipbot,telegram-monerotipbot,"This is the repository of the Monero tip bot for Telegram. The one and only, first Monero wallet for Telegram.",Go,Crypto,monero,2025-02-08 02:31:37+00:00
+https://api.github.com/repos/effectai/effect-network-eos,effect-network-eos,EOS smart contract for the Effect.AI token,C++,Crypto,eos,2024-11-02 11:01:05+00:00
+https://api.github.com/repos/mempool-space/mempool.space,mempool.space,Mempool visualizer for the Bitcoin blockchain.,TypeScript,Crypto,bitcoin,2025-03-06 03:54:29+00:00
+https://api.github.com/repos/nnqq/blockchain-explorer-telegram-bot,blockchain-explorer-telegram-bot,"???? BTC & ETH blockchain explorer search, addresses and price Watch Lists and more...",,Crypto,multi,2024-08-19 19:24:43+00:00
+https://api.github.com/repos/keep-network/tbtc-website,tbtc-website,Trustlessly tokenized Bitcoin on Ethereum ;),JavaScript,Crypto,multi,2024-10-31 02:19:00+00:00
+https://api.github.com/repos/LedgerHQ/ledger-app-eos,ledger-app-eos,,C,Crypto,eos,2024-12-18 15:45:08+00:00
+https://api.github.com/repos/snieking/chromunity,chromunity,A decentralized social media site built with Rell on top of the public relational blockchain platform Chromia.,TypeScript,Others,others,2024-10-04 17:30:10+00:00
+https://api.github.com/repos/MetaMask/Add-Token,Add-Token,A simple web3 dapp that allows suggesting a token to users of compatible wallets like MetaMask.,JavaScript,Crypto,ethereum,2024-06-11 05:13:52+00:00
+https://api.github.com/repos/rtoken-project/rtoken-monorepo,rtoken-monorepo,RToken Ethereum monorepo,Solidity,Crypto,ethereum,2024-12-16 20:54:55+00:00
+https://api.github.com/repos/byteball/btc-oracle,btc-oracle,An oracle that posts data about recent Bitcoin payments into Byteball database,,Crypto,bitcoin,2024-02-23 00:10:19+00:00
+https://api.github.com/repos/dappforce/dappforce-subsocial-offchain,dappforce-subsocial-offchain,Off-chain storage for Subsocial blockchain.,TypeScript,Others,multi,2024-04-25 14:43:28+00:00
+https://api.github.com/repos/darosior/python-bip32,python-bip32,Basic implementation of BIP32,Python,Crypto,bitcoin,2024-09-07 12:33:46+00:00
+https://api.github.com/repos/adityapk00/zecpaperwallet,zecpaperwallet,Zcash Sapling Paper Wallet Generator,Rust,Crypto,zcash,2024-03-13 18:07:28+00:00
+https://api.github.com/repos/solana-labs/solana-program-library,solana-program-library,A collection of Solana-maintained on-chain programs,,Others,solana,2025-03-05 10:14:40+00:00
+https://api.github.com/repos/worldwide-asset-exchange/wax-blockchain,wax-blockchain,"Worldwide Asset eXchange (WAX/wax.io) is an eos compatible blockchain and protocol token designed to make e-commerce transactions faster, easier, and safer.",C++,Crypto,eos,2024-12-03 05:00:13+00:00
+https://api.github.com/repos/running-coder/nanolooker,nanolooker,Explore the Nano currency blockchain,,Others,nano,2024-05-24 06:56:54+00:00
+https://api.github.com/repos/bancorprotocol/contracts-solidity,contracts-solidity,Bancor Protocol Contracts,JavaScript,Others,ethereum,2024-05-08 21:08:33+00:00
+https://api.github.com/repos/kleros/archon,archon,Provides functionality for Arbitrator and Arbitrable Ethereum smart contracts as defined in ERC 792.,JavaScript,Crypto,ethereum,2025-02-19 18:32:23+00:00
+https://api.github.com/repos/FriendlyUser/file-track-Dapp,file-track-Dapp,"Upload and track IPFS files securely on the Ethereum Network, supports UPORT",,Others,ethereum,2024-05-07 16:49:41+00:00
+https://api.github.com/repos/vittominacori/watch-token,watch-token,A simple DApp that allows suggesting and adding a token to users of compatible wallets like MetaMask.,,Crypto,ethereum,2024-12-13 22:10:29+00:00
+https://api.github.com/repos/LedgerHQ/ledger-app-xrp,ledger-app-xrp,Ripple wallet application for Ledger Blue and Nano S,C,Crypto,multi,2025-01-15 13:21:15+00:00
+https://api.github.com/repos/evenchange4/ethereum-hot-wallet,ethereum-hot-wallet,A react-native hot wallet that communicates with geth node.,JavaScript,Crypto,ethereum,2025-03-05 00:47:26+00:00
+https://api.github.com/repos/NeoNextClub/neoline,neoline,A handy NEO wallet in your browser.,,Crypto,neo,2025-03-04 03:03:33+00:00
+https://api.github.com/repos/oficinastk/Thoreau.Centre.Blockchain.Arts,Thoreau.Centre.Blockchain.Arts,"Static page info and model repo for the TCBA, a virtual exhibition space on Decentraland",,Others,decentraland,2024-04-10 16:29:49+00:00
