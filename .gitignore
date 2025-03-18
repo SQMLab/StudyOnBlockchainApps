@@ -175,3 +175,6 @@ config
 Data/Repositories.bin
 DummyTest.ipynb
 /Export
+/Data/Output-BERTopic-56
+/Data/Output-BERTopic
+/Data/Topics-LDA
