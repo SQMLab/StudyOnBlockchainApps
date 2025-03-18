@@ -93,17 +93,18 @@
         function populateIssues(issues) {
             const issueList = document.getElementById('issue-list');
             issueList.innerHTML = '';
-
+            no = 1;
             issues.forEach(issue => {
                 const issueItem = document.createElement('div');
                 issueItem.className = 'issue-item';
-                issueItem.textContent = `${issue.Repository} - Issue #${issue.IssueId}`;
+                issueItem.textContent = `${no}. ${issue.Repository} - Issue #${issue.IssueId}`;
                 issueItem.addEventListener('click', (event) => {
                     highlightSelected(event.target);
                     fetchIssueDetails(issue.Repository, issue.IssueId);
                 });
 
                 issueList.appendChild(issueItem);
+                no++;
             });
         }
 
