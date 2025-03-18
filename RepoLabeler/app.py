@@ -21,6 +21,10 @@ github = Github(auth=auth)
 def index():
     return render_template("index.html")
 
+@app.route("/topics")
+def topics():
+    return render_template("topics.html")
+
 @app.route("/RepoPreviewer")
 def RepoPreviewer():
     return render_template("RepoPreviewer.html")
@@ -94,5 +98,39 @@ def toggle_repo():
 
     return jsonify({"message": "Updated"})
 
+@app.route("/getIssueList", methods=["GET"])
+def get_issue_list():
+    csv_filename = request.args.get("csv")
+    if not csv_filename:
+        return jsonify({"error": "CSV file name not provided"}), 400
+    
+    csv_path = os.path.join("./Data/Output-BERTopic/Topics", csv_filename)  # Ensure proper path
+    if not os.path.exists(csv_path):
+        return jsonify({"error": "CSV file not found"}), 404
+    
+    try:
+        df = pd.read_csv(csv_path, usecols=["Repository", "IssueId", "Prob"], dtype=str)
+        df = df.dropna()  # Remove any rows with missing values
+        df = df.sort_values(by="Prob", ascending=False)
+        issues = df.to_dict(orient="records")
+        return jsonify(issues)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/getIssue/<owner>/<repo>/<int:issue_id>", methods=["GET"])
+def get_issue(owner, repo, issue_id):
+    try:
+        repo_obj = github.get_repo(owner+"/"+repo)
+        issue = repo_obj.get_issue(number=issue_id)
+        comments = [comment.body for comment in issue.get_comments()]
+        
+        return jsonify({
+            "title": issue.title,
+            "body": issue.body or "No description available",
+            "comments": comments or ["No comments available"]
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
 if __name__ == "__main__":
     app.run(debug=True)
