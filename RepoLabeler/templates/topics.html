@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,6 +61,7 @@
         }
     </style>
 </head>
+
 <body>
     <div id="left-pane">
         <input type="file" id="csv-file-input" accept=".csv" />
@@ -68,6 +70,7 @@
     </div>
 
     <div id="right-pane">
+        <h3 id="issue-heading"> </h3>
         <h3 id="issue-title">Issue Title: </h3>
         <div id="issue-body">Issue Body: </div>
         <div id="comments">
@@ -77,18 +80,20 @@
     </div>
 
     <script>
-        document.getElementById('load-issues').addEventListener('click', function() {
+        document.getElementById('load-issues').addEventListener('click', function () {
             const fileInput = document.getElementById('csv-file-input');
             if (!fileInput.files.length) {
                 alert('Please select a CSV file first.');
                 return;
             }
             const fileName = fileInput.files[0].name;
+            updateURL(fileName);
             fetch(`/getIssueList?csv=${fileName}`)
                 .then(response => response.json())
                 .then(data => populateIssues(data))
                 .catch(error => console.error('Error fetching issues:', error));
         });
+
 
         function populateIssues(issues) {
             const issueList = document.getElementById('issue-list');
@@ -115,16 +120,24 @@
         }
 
         function fetchIssueDetails(repo, issueId) {
-            fetch(`/getIssue/${repo}/${issueId}`)
+            const params = new URLSearchParams(window.location.search);
+            const fileName = params.get('topic');
+            fetch(`/getIssue/${fileName}/${repo}/${issueId}`)
                 .then(response => response.json())
                 .then(data => {
+                    document.getElementById('issue-heading').textContent = `${repo} - Issue #${issueId}`;
                     document.getElementById('issue-title').textContent = `Issue Title: ${data.title}`;
                     if (typeof marked !== 'undefined') {
                         document.getElementById('issue-body').innerHTML = marked.parse(data.body || "No description available");
                     } else {
                         document.getElementById('issue-body').textContent = data.body || "No description available";
                     }
-                    displayComments(data.comments);
+                    fetch(`/getIssueComments/${repo}/${issueId}`)
+                        .then(response => response.json())
+                        .then(data => {
+                            displayComments(data.comments);
+                        })
+                        .catch(error => console.error('Error fetching issue:', error));
                 })
                 .catch(error => console.error('Error fetching issue:', error));
         }
@@ -142,6 +155,21 @@
                 commentList.appendChild(li);
             });
         }
+
+        function updateURL(filename) {
+            const url = new URL(window.location);
+            url.searchParams.set('topic', filename);
+            window.history.pushState({ path: url.href }, '', url.href);
+        }
+        window.onload = function () {
+            const params = new URLSearchParams(window.location.search);
+            const filename = params.get('topic');
+            fetch(`/getIssueList?csv=${filename}`)
+                .then(response => response.json())
+                .then(data => populateIssues(data))
+                .catch(error => console.error('Error fetching issues:', error));
+        };
     </script>
 </body>
+
 </html>

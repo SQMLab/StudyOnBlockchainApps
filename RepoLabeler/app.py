@@ -109,24 +109,36 @@ def get_issue_list():
         return jsonify({"error": "CSV file not found"}), 404
     
     try:
-        df = pd.read_csv(csv_path, usecols=["Repository", "IssueId", "Prob"], dtype=str)
-        df = df.dropna()  # Remove any rows with missing values
-        df = df.sort_values(by="Prob", ascending=False)
-        issues = df.to_dict(orient="records")
+        df = pd.read_csv(csv_path, dtype=str)
+        issue_df =  df[["Repository", "IssueId", "Prob"]]
+        issue_df = issue_df.sort_values(by="Prob", ascending=False)
+        issues = issue_df.to_dict(orient="records")
         return jsonify(issues)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
-@app.route("/getIssue/<owner>/<repo>/<int:issue_id>", methods=["GET"])
-def get_issue(owner, repo, issue_id):
+@app.route("/getIssue/<filename>/<owner>/<repo>/<int:issue_id>", methods=["GET"])
+def get_issue(filename, owner, repo, issue_id):
+    try:
+        df = pd.read_csv(os.path.join("./Data/Output-BERTopic/Topics", filename))
+        issue = df.loc[(df["Repository"] == owner+"/"+repo) & (df["IssueId"] == issue_id)]
+        issue = issue.iloc[0]
+        return jsonify({
+            "title": issue.Title,
+            "body": issue.Body or "No description available",
+            "comments": ["No comments available"]
+        })
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+    
+@app.route("/getIssueComments/<owner>/<repo>/<int:issue_id>", methods=["GET"])
+def get_issue_comments(owner, repo, issue_id):
     try:
         repo_obj = github.get_repo(owner+"/"+repo)
         issue = repo_obj.get_issue(number=issue_id)
         comments = [comment.body for comment in issue.get_comments()]
         
         return jsonify({
-            "title": issue.title,
-            "body": issue.body or "No description available",
             "comments": comments or ["No comments available"]
         })
     except Exception as e:
