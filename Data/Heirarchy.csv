@@ -1,0 +1,50 @@
+ID,Topic,Parent,Root
+15 Documentation,Documentation,Documentation,Software Development Issues
+1 UI Enhancement,User Experience & Interaction,User Experience & Interaction,Software Development Issues
+6 Notification,User Experience & Interaction,User Experience & Interaction,Software Development Issues
+9 Localization and Translation,User Experience & Interaction,User Experience & Interaction,Software Development Issues
+46 Tooltip Enhancement,User Experience & Interaction,User Experience & Interaction,Software Development Issues
+25 Miscellaneous Feature Update,Feature Updates,User Experience & Interaction,Software Development Issues
+39 Search Feature,Feature Updates,User Experience & Interaction,Software Development Issues
+16 URL and Hyperlink,Feature Updates,User Experience & Interaction,Software Development Issues
+2 Logging and Error Handling,Observability,Infrastructure,Software Development Issues
+26 Event Analytics,Observability,Infrastructure,Software Development Issues
+41 Sentry,Observability,Infrastructure,Software Development Issues
+35 API,Data Access Interfaces,Infrastructure,Software Development Issues
+36 GraphQL,Data Access Interfaces,Infrastructure,Software Development Issues
+30 Bug Fix,Bug Fix,Development & Maintenance,Software Development Issues
+"10 Write, fix, update Tests",Testing,Development & Maintenance,Software Development Issues
+24 E2E  Test,Testing,Development & Maintenance,Software Development Issues
+4 CICD,Build and Deployment,Development & Maintenance,Software Development Issues
+17 Docker,Build and Deployment,Development & Maintenance,Software Development Issues
+19 Software Release,Build and Deployment,Development & Maintenance,Software Development Issues
+20 Merging PR,Build and Deployment,Development & Maintenance,Software Development Issues
+8 React: Dependency Update,Dependency Management,Development & Maintenance,Software Development Issues
+28 TypeScript ESLint Plugin Dependency Update,Dependency Management,Development & Maintenance,Software Development Issues
+23 Miscellaneous Dependency Update,Dependency Management,Development & Maintenance,Software Development Issues
+18 TypeScript Dependency Update,Dependency Management,Development & Maintenance,Software Development Issues
+31 Rust Specific Issues ,Dependency Management,Development & Maintenance,Software Development Issues
+32 Node Dependency Update,Dependency Management,Development & Maintenance,Software Development Issues
+34 Golang Dependency Ipdate,Dependency Management,Development & Maintenance,Software Development Issues
+43 Snap Packages,Dependency Management,Development & Maintenance,Software Development Issues
+29 Fix Code Style,Code Improvements,Development & Maintenance,Software Development Issues
+44 Refactoring,Code Improvements,Development & Maintenance,Software Development Issues
+47 Migration,Code Improvements,Development & Maintenance,Software Development Issues
+45 Copy and Clipboard Operations,Wallet Address Management,Wallet,Blockchain Issues
+27 QR Code,Wallet Address Management,Wallet,Blockchain Issues
+0 Wallet Management and Connectivity,Wallet Management,Wallet,Blockchain Issues
+13 Ledger Wallet management,Wallet Management,Wallet,Blockchain Issues
+22 Metamask Browser Extension,Wallet Management,Wallet,Blockchain Issues
+42 Tor and Privacy Preserving Wallet,Wallet Management,Wallet,Blockchain Issues
+5 RPC and Networking,Networking,Networking,Blockchain Issues
+3 Token Management,Digital Asset,Digital Asset,Blockchain Issues
+14 NFT,Digital Asset,Digital Asset,Blockchain Issues
+7 Fee,Transaction,Transaction,Blockchain Issues
+21 Swap,Transaction,Transaction,Blockchain Issues
+33 Concensus Mechanism,Mechanisms,Mechanisms,Blockchain Issues
+48 NNS and Neuron Staking,Mechanisms,Mechanisms,Blockchain Issues
+37 Leaderboard and Scores,Community Interaction,Community Interaction,Blockchain Issues
+38 Fundraising,Community Interaction,Community Interaction,Blockchain Issues
+12 Voting Proposals,Community Interaction,Community Interaction,Blockchain Issues
+40 Inscription Management,Security and Data Integrity,Security and Data Integrity,Blockchain Issues
+11 Cryptographic Signing,Security and Data Integrity,Security and Data Integrity,Blockchain Issues
